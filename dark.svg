@@ -1,1 +1,333 @@
 
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-label="Debprasanna Bag — AI and ML Engineer, Medical AI and Computer Vision Researcher, and Robotics Enthusiast">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-base" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="50%" stop-color="#07111F" />
+      <stop offset="100%" stop-color="#0B1220" />
+    </linearGradient>
+
+    <radialGradient id="glow-violet" cx="20%" cy="25%" r="45%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.18">
+        <animate attributeName="stop-opacity" values="0.14;0.24;0.14" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glow-cyan" cx="80%" cy="75%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.15">
+        <animate attributeName="stop-opacity" values="0.12;0.22;0.12" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="50%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.4" />
+    </linearGradient>
+
+    <linearGradient id="glass-panel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.42" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.68" />
+    </linearGradient>
+
+    <linearGradient id="ascii-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0" />
+      <stop offset="45%" stop-color="#22D3EE" />
+      <stop offset="85%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+
+    <linearGradient id="scanline-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0" />
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#334155" stroke-width="0.6" stroke-opacity="0.25" />
+    </pattern>
+
+    <!-- Scanline Overlay Pattern -->
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="4" y2="0" stroke="#000000" stroke-width="1" stroke-opacity="0.22" />
+    </pattern>
+
+    <clipPath id="outer-clip">
+      <rect x="8" y="8" width="1164" height="594" rx="22" />
+    </clipPath>
+
+    <clipPath id="portrait-clip">
+      <rect x="52" y="132" width="388" height="268" rx="12" />
+    </clipPath>
+  </defs>
+
+  <!-- Main Outer Frame -->
+  <g clip-path="url(#outer-clip)">
+    <rect x="8" y="8" width="1164" height="594" rx="22" fill="url(#bg-base)" />
+    <rect x="8" y="8" width="1164" height="594" fill="url(#glow-violet)" />
+    <rect x="8" y="8" width="1164" height="594" fill="url(#glow-cyan)" />
+    <rect x="8" y="8" width="1164" height="594" fill="url(#grid)" />
+
+    <!-- Ambient Drifting Particles -->
+    <circle cx="180" cy="110" r="1.5" fill="#22D3EE" opacity="0.4">
+      <animate attributeName="cy" values="110;95;110" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="980" cy="140" r="2" fill="#7C3AED" opacity="0.35">
+      <animate attributeName="cy" values="140;160;140" dur="8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="620" cy="540" r="1.5" fill="#10B981" opacity="0.35">
+      <animate attributeName="cy" values="540;522;540" dur="7s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- TOP TERMINAL CHROME BAR -->
+    <rect x="8" y="8" width="1164" height="52" fill="#090F1D" fill-opacity="0.88" />
+    <line x1="8" y1="60" x2="1172" y2="60" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Window Controls -->
+    <circle cx="38" cy="34" r="6.5" fill="#EF4444" />
+    <circle cx="60" cy="34" r="6.5" fill="#F59E0B" />
+    <circle cx="82" cy="34" r="6.5" fill="#10B981" />
+
+    <!-- Terminal Title -->
+    <text x="116" y="39" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" fill="#94A3B8" letter-spacing="0.5">
+      debprasanna@engineering:~
+    </text>
+
+    <!-- Decorative Editor Navigation -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#64748B">
+      <text x="540" y="38" fill="#22D3EE">01.IDENTITY</text>
+      <text x="645" y="38">02.FOCUS</text>
+      <text x="730" y="38">03.STACK</text>
+      <text x="815" y="38">04.PROJECTS</text>
+    </g>
+
+    <!-- Status Badge -->
+    <rect x="1044" y="21" width="104" height="26" rx="13" fill="#064E3B" fill-opacity="0.45" stroke="#10B981" stroke-width="1" stroke-opacity="0.6" />
+    <circle cx="1062" cy="34" r="4" fill="#10B981">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="1074" y="38" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="bold" fill="#34D399" letter-spacing="1">
+      ONLINE
+    </text>
+
+    <!-- ========================================== -->
+    <!-- LEFT COLUMN: VISUAL.MAP (38% WIDTH)        -->
+    <!-- ========================================== -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.1s" fill="freeze" />
+
+      <!-- Left Glass Card -->
+      <rect x="32" y="80" width="428" height="502" rx="16" fill="url(#glass-panel)" stroke="url(#border-grad)" stroke-width="1.2" />
+
+      <!-- Card Subheader -->
+      <text x="54" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="bold" fill="#22D3EE" letter-spacing="2">
+        VISUAL.MAP // PORTRAIT.NODE
+      </text>
+      <text x="438" y="112" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#64748B">
+        [ASCII.64x22]
+      </text>
+      <line x1="52" y1="122" x2="440" y2="122" stroke="#1E293B" stroke-width="1" />
+
+      <!-- Portrait Frame -->
+      <rect x="52" y="132" width="388" height="268" rx="12" fill="#050B16" fill-opacity="0.85" stroke="#1E293B" stroke-width="1" />
+
+      <!-- Centered ASCII Portrait (Head + Shoulders Silhouette) -->
+      <g clip-path="url(#portrait-clip)">
+        <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" fill="url(#ascii-grad)" text-anchor="middle" xml:space="preserve" letter-spacing="1.2">
+          <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="6s" repeatCount="indefinite" />
+          <text x="246" y="150">            .·:+*#%%@@@@@@%%#*+:·.            <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.15s" fill="freeze" /></text>
+          <text x="246" y="161">         .:+#%@@@@@@@@@@@@@@@@@@%#+:.         <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.18s" fill="freeze" /></text>
+          <text x="246" y="172">       .+#@@@@@@@@@@@@@@@@@@@@@@@@@@#+.       <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.21s" fill="freeze" /></text>
+          <text x="246" y="183">      :#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#:      <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.24s" fill="freeze" /></text>
+          <text x="246" y="194">     +@@@@@%#*+::..........::+*#%@@@@@@+     <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.27s" fill="freeze" /></text>
+          <text x="246" y="205">    *@@@@*:   .·:+*#%%%%#*+:·.   :*@@@@@*    <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.30s" fill="freeze" /></text>
+          <text x="246" y="216">   .@@@@+   .+#%%%#**++**#%%%#+.   +@@@@@.   <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.33s" fill="freeze" /></text>
+          <text x="246" y="227">   :@@@#   :====+========+====+:   #@@@:   <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.36s" fill="freeze" /></text>
+          <text x="246" y="238">   .@@@+  .#@%[●]@#=:..:=#@[●]%@#.  +@@@.   <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.39s" fill="freeze" /></text>
+          <text x="246" y="249">    *@@+  .*%%%%#*+· .. ·+*#%%%%*.  +@@*    <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.42s" fill="freeze" /></text>
+          <text x="246" y="260">     #@#    .::..   :++:   ..::.    #@#     <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.45s" fill="freeze" /></text>
+          <text x="246" y="271">     :@@+          .*@@*.          +@@:     <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.48s" fill="freeze" /></text>
+          <text x="246" y="282">      *@@:       .:+*##*+:.       :@@*      <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.51s" fill="freeze" /></text>
+          <text x="246" y="293">       #@@:     .·+******+·.     :@@#       <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.54s" fill="freeze" /></text>
+          <text x="246" y="304">        *@@+.     ..::::..     .+@@*        <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.57s" fill="freeze" /></text>
+          <text x="246" y="315">         +#@@#+:..        ..:+#@@#+         <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.60s" fill="freeze" /></text>
+          <text x="246" y="326">         .:*#@@@@@@%%%%%%@@@@@@#*:.         <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.63s" fill="freeze" /></text>
+          <text x="246" y="337">      .:+#%@@@@@#*:......:*#@@@@@%#+:.      <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.66s" fill="freeze" /></text>
+          <text x="246" y="348">   .:+#@@@@@@@@@+  .::::.  +@@@@@@@@@#+:.   <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.69s" fill="freeze" /></text>
+          <text x="246" y="359"> .+#@@@@@@@@@@@@#++*####*++#@@@@@@@@@@@@#+. <animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.72s" fill="freeze" /></text>
+          <text x="246" y="370">#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#<animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.75s" fill="freeze" /></text>
+          <text x="246" y="381">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@<animate attributeName="opacity" values="0;0.9" dur="0.2s" begin="0.78s" fill="freeze" /></text>
+        </g>
+
+        <!-- Moving Horizontal Scanline -->
+        <rect x="52" y="132" width="388" height="24" fill="url(#scanline-grad)">
+          <animate attributeName="y" values="110;400;110" dur="7s" repeatCount="indefinite" />
+        </rect>
+        <rect x="52" y="132" width="388" height="268" fill="url(#scanlines)" pointer-events="none" />
+      </g>
+
+      <!-- Left Identity Content (Centered & Concise) -->
+      <text x="246" y="428" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="bold" fill="#A78BFA" letter-spacing="2">
+        [PROFILE // AI & ROBOTICS ENGINEERING]
+      </text>
+
+      <text x="246" y="454" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="bold" fill="#F8FAFC">
+        Medical AI · Computer Vision · Robotics
+      </text>
+
+      <text x="246" y="478" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#94A3B8">
+        Engineering intelligent vision & autonomous systems
+      </text>
+
+      <!-- Bottom Left Command Prompt Box -->
+      <rect x="52" y="502" width="388" height="44" rx="8" fill="#090D16" fill-opacity="0.9" stroke="#1E293B" stroke-width="1" />
+      <text x="70" y="529" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" fill="#10B981">
+        ~/profile <tspan fill="#22D3EE">$</tspan> <tspan fill="#E2E8F0">train --vision --deploy</tspan>
+      </text>
+      <rect x="278" y="516" width="7" height="15" fill="#22D3EE">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+    <!-- ========================================== -->
+    <!-- RIGHT COLUMN: SYSTEM.INFO (62% WIDTH)      -->
+    <!-- ========================================== -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.25s" fill="freeze" />
+
+      <!-- Right Glass Card -->
+      <rect x="480" y="80" width="668" height="502" rx="16" fill="url(#glass-panel)" stroke="url(#border-grad)" stroke-width="1.2" />
+
+      <!-- Right Panel Header -->
+      <text x="508" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="bold" fill="#22D3EE" letter-spacing="2">
+        SYSTEM.INFO
+      </text>
+      <text x="1120" y="112" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#94A3B8">
+        debprasanna@kali-xfce:~$ <tspan fill="#10B981">./profile.sh</tspan>
+      </text>
+      <line x1="508" y1="122" x2="1120" y2="122" stroke="#1E293B" stroke-width="1" />
+
+      <!-- Name & Dynamic Role Header -->
+      <text x="508" y="162" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="28" font-weight="bold" fill="#F8FAFC" letter-spacing="0.5">
+        DEBPRASANNA BAG
+      </text>
+
+      <!-- Rotating Role Display (SMIL Opacity Loop) -->
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="bold">
+        <text x="508" y="188" fill="#22D3EE">
+          > AI & Machine Learning Engineer
+          <animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.28;0.33;0.61;0.66;0.95;1" dur="9s" repeatCount="indefinite" />
+        </text>
+        <text x="508" y="188" fill="#A78BFA" opacity="0">
+          > Medical AI & Computer Vision Researcher
+          <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.28;0.33;0.61;0.66;0.95;1" dur="9s" repeatCount="indefinite" />
+        </text>
+        <text x="508" y="188" fill="#34D399" opacity="0">
+          > Robotics & Open-Source Developer
+          <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.28;0.33;0.61;0.66;0.95;1" dur="9s" repeatCount="indefinite" />
+        </text>
+      </g>
+
+      <line x1="508" y1="204" x2="1120" y2="204" stroke="#1E293B" stroke-width="1" />
+
+      <!-- Balanced System Info Grid (Right-Aligned Labels, Left-Aligned Values) -->
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13">
+        <!-- Row 1: EDUCATION -->
+        <text x="618" y="232" text-anchor="end" fill="#22D3EE" font-weight="bold">> EDUCATION</text>
+        <text x="638" y="232" fill="#F8FAFC">B.Tech CSE (AI & ML) · Amity University Kolkata</text>
+
+        <!-- Row 2: LOCATION -->
+        <text x="618" y="258" text-anchor="end" fill="#22D3EE" font-weight="bold">> LOCATION</text>
+        <text x="638" y="258" fill="#E2E8F0">Kolkata, West Bengal, India</text>
+
+        <!-- Row 3: FOCUS -->
+        <text x="618" y="284" text-anchor="end" fill="#22D3EE" font-weight="bold">> FOCUS</text>
+        <text x="638" y="284" fill="#E2E8F0">Medical AI · Computer Vision · Humanoid Robotics</text>
+
+        <!-- Row 4: ENVIRONMENT -->
+        <text x="618" y="310" text-anchor="end" fill="#22D3EE" font-weight="bold">> SYSTEM</text>
+        <text x="638" y="310" fill="#94A3B8">Linux (XFCE) · PyTorch · VS Code · RTX 4060 Ti</text>
+      </g>
+
+      <line x1="508" y1="328" x2="1120" y2="328" stroke="#1E293B" stroke-width="1" />
+
+      <!-- SELECTED TECH STACK PILLS -->
+      <text x="508" y="352" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="bold" fill="#94A3B8" letter-spacing="1.5">
+        CORE.STACK // VERIFIED MODULES
+      </text>
+
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="#F8FAFC">
+        <!-- Pill 1 -->
+        <rect x="508" y="366" width="96" height="28" rx="6" fill="#0F172A" stroke="#22D3EE" stroke-opacity="0.5" />
+        <circle cx="522" cy="380" r="3" fill="#22D3EE" />
+        <text x="532" y="384">Python</text>
+
+        <!-- Pill 2 -->
+        <rect x="614" y="366" width="104" height="28" rx="6" fill="#0F172A" stroke="#7C3AED" stroke-opacity="0.5" />
+        <circle cx="628" cy="380" r="3" fill="#A78BFA" />
+        <text x="638" y="384">PyTorch</text>
+
+        <!-- Pill 3 -->
+        <rect x="728" y="366" width="132" height="28" rx="6" fill="#0F172A" stroke="#10B981" stroke-opacity="0.5" />
+        <circle cx="742" cy="380" r="3" fill="#10B981" />
+        <text x="752" y="384">DenseNet-169</text>
+
+        <!-- Pill 4 -->
+        <rect x="870" y="366" width="114" height="28" rx="6" fill="#0F172A" stroke="#22D3EE" stroke-opacity="0.5" />
+        <circle cx="884" cy="380" r="3" fill="#22D3EE" />
+        <text x="894" y="384">Grad-CAM</text>
+
+        <!-- Pill 5 -->
+        <rect x="994" y="366" width="126" height="28" rx="6" fill="#0F172A" stroke="#7C3AED" stroke-opacity="0.5" />
+        <circle cx="1008" cy="380" r="3" fill="#A78BFA" />
+        <text x="1018" y="384">Linux / XFCE</text>
+      </g>
+
+      <line x1="508" y1="412" x2="1120" y2="412" stroke="#1E293B" stroke-width="1" />
+
+      <!-- FEATURED PROJECTS -->
+      <text x="508" y="436" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="bold" fill="#94A3B8" letter-spacing="1.5">
+        SELECTED.BUILDS // ACTIVE REPOSITORIES
+      </text>
+
+      <!-- Project 1 -->
+      <rect x="508" y="448" width="612" height="42" rx="8" fill="#090F1D" fill-opacity="0.65" stroke="#1E293B" stroke-width="1" />
+      <text x="524" y="474" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="bold" fill="#22D3EE">
+        VisionAI / RetinalQ
+      </text>
+      <text x="705" y="474" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" fill="#CBD5E1">
+        Automated diabetic retinopathy screening (PyTorch & Grad-CAM)
+      </text>
+
+      <!-- Project 2 -->
+      <rect x="508" y="498" width="612" height="42" rx="8" fill="#090F1D" fill-opacity="0.65" stroke="#1E293B" stroke-width="1" />
+      <text x="524" y="524" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="bold" fill="#A78BFA">
+        Campus Runner 3D
+      </text>
+      <text x="705" y="524" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" fill="#CBD5E1">
+        3D endless runner game integrating calculus mechanics
+      </text>
+
+      <!-- Footer Status / Platforms -->
+      <text x="508" y="564" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" fill="#64748B">
+        PLATFORMS: <tspan fill="#94A3B8">GitHub</tspan> · <tspan fill="#94A3B8">Kaggle</tspan> · <tspan fill="#94A3B8">ORCID</tspan>
+      </text>
+      <text x="1120" y="564" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" fill="#10B981">
+        STATUS: BUILDING & RESEARCHING
+      </text>
+    </g>
+
+    <!-- Outer Frame Border Highlight -->
+    <rect x="8" y="8" width="1164" height="594" rx="22" fill="none" stroke="url(#accent-grad)" stroke-width="1.5" stroke-opacity="0.55" />
+  </g>
+</svg>
